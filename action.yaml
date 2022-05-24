@@ -1,5 +1,5 @@
 name: 'dart publish setup'
-description: 'This action will setup m3o-dart for publishing'
+description: 'This action will setup and publish m3o-dart clients'
 
 inputs:
   pub_credentials: 
