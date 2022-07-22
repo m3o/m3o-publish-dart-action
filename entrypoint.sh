@@ -18,7 +18,7 @@ fi
 
 echo 'dart-publisher-action-> setting up pub-credentials.josn file ...'
 mkdir -p ~/.config/dart
-echo "${PUB_CREDENTIALS}" > ~/.config/dart/pub-credentials.json
+echo "${INPUT_PUB_CREDENTIALS}" > ~/.config/dart/pub-credentials.json
 
 echo 'dart-publisher-action-> publishing m3o-dart to pub.dev ...'
 
